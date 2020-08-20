@@ -1,0 +1,17 @@
+{
+    "name": "GyroscopeExtension",
+    "displayname": "Gyroscope Camera",
+    "description": "Extension using the Device Orientation APIs to control the viewer camera.",
+    "options": {
+        "debug": true
+    },
+    "editoptions":"true",
+    "viewerversion": "7.*",
+    "loadonstartup": "false",
+    "filestoload": {
+        "cssfiles": ["GyroscopeExtension.css"],
+        "jsfiles": ["GyroscopeExtension.js"]
+    },
+    "gif": "extension.gif",
+    "includeinlist": "true"
+}

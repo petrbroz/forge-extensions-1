@@ -1,0 +1,20 @@
+#gyroscopeExtensionButton {
+    background-image: url(https://img.icons8.com/ultraviolet/40/000000/gyroscope.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: grayscale(100%);
+}
+
+#gyroscopeExtensionButton.active {
+    filter: none;
+}
+
+.gyroscopeExtensionDebug {
+    position: absolute;
+    left: 1em;
+    top: 1em;
+    z-index: 100;
+    background: rgba(256, 256, 256, 0.5);
+    color: black;
+}
